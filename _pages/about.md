@@ -8,42 +8,22 @@ redirect_from:
 ---
 
 Welcome to my personal academic website! Below, you can find information about my background, professional experience, and portfolio.
+“Purify my music, seek the essence within, and walk the path to enlightenment.”.
+#  **Jingrui Han (韩竞锐)**
 
-# About Me
+Art & Technology Assistant Lecturer, Film/Game composer, interactive music designer, Sound designer, Piano Player 
 
-My name is **Jingrui Han (韩竞锐)**, and I am currently an Assistant Lecturer in Art & Technology, a film/game composer, interactive music designer, and sound designer. I also play the piano. I completed my undergraduate studies at the **Beijing Film Academy**, majoring in Composition and Composition Theory, with a focus on film music composition and production. Later, I pursued a master’s degree at the **Reid School of Music, University of Edinburgh**, specializing in **Sound Design**.
+I completed my undergraduate studies at the Beijing Film Academy, majoring in Composition and Composition Theory, with a focus on film music composition and production. I then pursued a master’s degree at the Reid School of Music, University of Edinburgh, specializing in Sound Design. My studies encompassed composition, film scoring, interactive music design, and audio programming. During this time, I was exposed to emerging technologies and the development of AI music, a field that has sparked curiosity and confusion for many, including myself. I identified a significant challenge in the lack of effective connection between AI music and visual media, as well as the communication gap between AI engineers and musicians. From my perspective, meaningful research and valuable products should be tested and applied commercially, and can only emerge through collaboration, not isolation. As a result, in addition to my teaching and composition work, I have dedicated my spare time to exploring these ideas.
 
-Currently, I teach at the **School of Recording Arts at Qingdao Film Academy**, with a focus on art and technology. From March to June 2024, I will be a **visiting scholar** at the Beijing Film Academy, conducting workshops and engaging in collaborative projects. I am passionate about the future of film and game music, particularly how new AI and interactive technologies will shape future musical styles and techniques.
+Currently, I teach in the School of Recording Arts at Qingdao Film Academy, focusing on art and technology. Between March and June 2024, I also serve as a visiting scholar at the Beijing Film Academy, conducting workshops and collaborative exchanges. My goal is to nurture talents who can create interactive audio for new media, particularly in games and installations, focusing more on the creative process and realization rather than just technical training. Simultaneously, I am actively exploring the future possibilities of film and game music. I firmly believe that most musical styles have evolved alongside technological advancements. For instance, the widespread adoption of MIDI technology empowered more individuals to compose and evaluate their own music, while virtual synthesizer technology contributed to the growth of independent rock music. Therefore, I am convinced that the rapid development of AI and interactive technologies today will open new possibilities for people to explore music, ultimately giving rise to new musical styles and compositional techniques, providing audiences with more complex visual and auditory experiences.
 
-In addition to my teaching, I work as an independent sound designer and film composer, collaborating with directors from Hong Kong and Beijing. Below are some examples of my work in the field of film and interactive music.
+Currently, I serve as an assistant lecturer in the art and technology direction at the School of Recording Arts, Qingdao Film Academy, where I teach courses on game audio and music, computer fundamentals, interactive programming, and film music composition. In my personal time, I work as an independent sound designer and film score composer. I have collaborated with directors from Hong Kong and Beijing and have received several awards, including the Danny Award for Best Score. Additionally, I have worked as an orchestrator, collaborating with renowned composer Tan Dun on his famous "Maritime Symphony Concert." During my time in Edinburgh, I also collaborated with friends from various countries on a large-scale art installation exploring the ten themes of life, primarily through olfactory, auditory, and visual synesthesia. This installation was exhibited at the University of Edinburgh’s School of Art. You can view my portfolio on this website.
 
-# Contact Information
 
-- Email (Office): [JR_Han1999@outlook.com](mailto:JR_Han1999@outlook.com)
-- Email (School): [hanjingrui@qdfa.edu.cn](mailto:hanjingrui@qdfa.edu.cn)
-
-# Portfolio
-
-## Film Score for "The Last Memory"
-An award-winning film score for the short film *The Last Memory*, where I explored the use of traditional and electronic instruments to enhance the emotional depth of the narrative.
-
-[View Project](your-project-link1)
-
-## Interactive Music Installation
-A large-scale interactive music installation that explored the synesthetic connection between sound, smell, and visuals, exhibited at the **University of Edinburgh's School of Art**.
-
-[View Project](your-project-link2)
-
-## Collaboration with Tan Dun - "Maritime Symphony"
-As the orchestrator for Tan Dun’s *Maritime Symphony*, I contributed to a collaborative project that brought together Eastern and Western musical traditions, performed in various concert halls.
-
-[View Project](your-project-link3)
-
----
 
 &copy; 2024 Jingrui Han - All Rights Reserved
 
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+
+
+
