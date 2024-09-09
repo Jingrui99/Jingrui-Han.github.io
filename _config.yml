@@ -6,14 +6,13 @@
 # `jekyll serve -l -H localhost`. If you change this file, please restart the 
 # server process.
 
-# Basic Site Settings
-locale                   : "en-US"
-title                    : "Jingrui"
+# Basic Site Settingslocale                   : "en-US"
+title                    : "Jingrui Han"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://jingrui99.github.io/Jingrui-Han.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+name                     : &name "Jingrui Han"
+description              : &description "Personal website of Jingrui Han, Film Composer and Interactive Music Designer."
+url                      : https://jingrui99.github.io/Jingrui-Han.github.io/ # Ensure this is the correct URL
+baseurl                  : "" # Leave empty if your site is at the root level
 repository               : "academicpages/academicpages.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -21,31 +20,32 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Jingrui1.jpg"
+  avatar           : "Jingrui1.jpg" # Ensure this image is in the correct directory
   name             : "Jingrui Han（韩竞锐）"
-  pronouns         : # example: "she/her"  
+  pronouns         : # Example: "he/him"
   bio              : "Purify my music, seek the essence within, and walk the path to enlightenment."
-  location         : "Qingdao CHN"
+  location         : "Qingdao, CHN"
   employer         : "Qingdao Film Academy"
-  uri              : # URL
-  email            : "JR_Han1999@outlook.com" "hanjingrui@qdfa.edu.cn"
+  uri              : # Provide your personal or professional URL if applicable
+  email            : "JR_Han1999@outlook.com","hanjingrui@qdfa.edu.cn" # If you have multiple emails, list them separated by commas
 
   # Academic websites
-  arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    :  #"https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  impactstory      : # URL
-  orcid            :  #"http://orcid.org/yourorcidurl"
-  semantic         : # URL
-  pubmed           :  #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  arxiv            : # URL to your arXiv profile, if applicable
+  googlescholar    : # URL to your Google Scholar profile
+  impactstory      : # URL to your Impactstory profile
+  orcid            : # URL to your ORCID profile
+  semantic         : # URL to your Semantic Scholar profile
+  pubmed           : # URL to your PubMed profile
+  researchgate     : # URL to your ResearchGate profile
 
   # Repositories and software development
-  bitbucket        : # Username - Update with your username on the site
-  codepen          : # Username
-  dribbble         : # Username
-  github           : "academicpages"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  bitbucket        : # Bitbucket username
+  codepen          : # Codepen username
+  dribbble         : # Dribbble username
+  github           : "jingrui99" # Your GitHub username
+  kaggle           : # Kaggle username
+  stackoverflow    : # Stack Overflow user number or username
+
 
   # Social media
   bluesky          : "bsky.app" # Replace this with you Bluesky username
