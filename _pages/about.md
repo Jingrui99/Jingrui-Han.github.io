@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my personal academic website! Below, you can find information about my background, professional experience, and portfolio.
+#  **Welcome to Jingrui personal academic website!** 
 “Purify my music, seek the essence within, and walk the path to enlightenment.”.
 #  **Jingrui Han (韩竞锐)**
 
