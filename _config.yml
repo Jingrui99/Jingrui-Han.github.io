@@ -17,7 +17,7 @@ repository: "academicpages/academicpages.github.io"
 
 author:
   # Biographic information
-  avatar: "images/Jingrui1.png"  # Make sure the path is correct and image is in the 'images' folder
+  avatar: "https://github.com/Jingrui99/Jingrui-Han.github.io/raw/577484b7a81a94c1b8bc1c86a2ec55aa609b2362/images/Jingrui%201.png"  # Make sure the path is correct and image is in the 'images' folder
   name: "Jingrui Han（韩竞锐）"
   pronouns: # example: "she/her"
   bio: "Assistant Lecturer in Art & Technology"
