@@ -11,13 +11,13 @@ title: "Jingrui"
 title_separator: "-"
 name: &name "Your Name"
 description: &description "personal description"
-url: #https://jingrui99.github.io/Jingrui-Han.github.io/
+url: https://jingrui99.github.io/Jingrui-Han.github.io/
 baseurl: "" 
 repository: "academicpages/academicpages.github.io"
 
 author:
   # Biographic information
-  avatar: "images/Jingrui1.png"
+  avatar: "images/Jingrui1.png"  # Make sure the path is correct and image is in the 'images' folder
   name: "Jingrui Han（韩竞锐）"
   pronouns: # example: "she/her"
   bio: "Purify my music, seek the essence within, and walk the path to enlightenment."
@@ -27,21 +27,22 @@ author:
   email: "JR_Han1999@outlook.com"
 
   # Academic websites
-  arxiv: # URL - Update with the correct link to your profile
-  googlescholar: #"https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  arxiv: # URL
+  googlescholar: # "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   impactstory: # URL
-  orcid: #"http://orcid.org/yourorcidurl"
+  orcid: # "http://orcid.org/yourorcidurl"
   semantic: # URL
-  pubmed: #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed: # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate: # URL
 
   # Repositories and software development
-  bitbucket: # Username - Update with your username on the site
+  bitbucket: # Username
   codepen: # Username
   dribbble: # Username
-  github: "jingrui99"
+  github: "jingrui99"  # Replace with your GitHub username
   kaggle: # Username  
   stackoverflow: # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
+
 
 
   # Social media
