@@ -9,7 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-# CV
 
 ## Education
 - **M.Sc** in Sound Design, Reid School of Music, University of Edinburgh, 2023  
