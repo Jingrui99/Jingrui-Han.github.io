@@ -28,17 +28,14 @@ redirect_from:
   - Responsibilities: Composition for video and audio advertisements, MIDI production, and post-production mixing.
 
 ## Research Experience
-- **Spring 2022 - Present**: Colalab, BUAA  
-  **Research Topic**: Symbolic/Audio Music Generation with Video Background  
-  **Details**:  
-  1. Built a dataset and trained models to generate chords, melodies, and accompaniment for pop music with video features.  
-  2. Used Video2Text LLMs to generate potential music descriptions and fine-tuned pre-trained models.  
-  **Supervisor**: Si Liu
-
+- **Spring 2021 - Fall 2021**: Film Composition Team, Beijing Film Academy  
+  **Research Topic**: Modern Music Composition Techniques for Horror Films using Tibetan Instruments  
+  **Details**:   Explored the necessity of music in horror films and key design elements.  Based on modern music theories such as microtonality and twelve-tone technique, studied the structure and design of Tibetan instruments in horror film scoring and Recruited volunteers to gather audience feedback and analyzed how various optimizations could enhance the horror atmosphere.  
+  **Supervisor**: Dr. En’en Song
 - **Winter 2021**: Beijing Winter Olympics Interactive Design Team  
   **Research Topic**: Real-time Audio Interaction based on Skating Movement  
   **Details**: Used camera footage to analyze movement with AI models and generate sound effects and music in real-time according to set rules.  
-  **Supervisor**: Ke Han, PhD
+  **Supervisor**: Dr.Ke Han
 
 - **Summer 2023**: Reid School of Music, UOE  
   **Research Topic**: AI Music Generation based on Synesthetic Experiences  
