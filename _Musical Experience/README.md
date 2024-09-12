@@ -31,6 +31,10 @@ This page showcases some of my musical experiences from 2018 to the present.
 ![Mixing for Chinese Singer](https://github.com/Jingrui99/Jingrui-Han.github.io/blob/master/images/Jingrui6.jpg?raw=true)
 
 ---
+### Recording the Soundscape of Old Beijing Districts  
+![Beijing Soundscape](https://github.com/Jingrui99/Jingrui-Han.github.io/blob/master/images/114.jpg?raw=true)
+
+---
 
 ### Danny Award for Best Score (Award Photo)  
 ![Danny Award](https://github.com/Jingrui99/Jingrui-Han.github.io/blob/master/images/C2%20Special2.jpg?raw=true)
