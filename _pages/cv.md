@@ -40,7 +40,7 @@ redirect_from:
 - **Summer 2023**: Reid School of Music, UOE  
   **Research Topic**: AI Music Generation based on Synesthetic Experiences  
   **Details**: Explored the relationship between smell, memory, and perception by designing interactive soundscapes based on synesthesia.  
-  **Supervisors**: Dr. Jules Rawlinson
+  **Supervisor**: Dr. Jules Rawlinson
 
 - **Spring 2024 - Present**: School of Recording Arts, Qingdao Film Academy  
   **Research Topic**: Methods of Interactive Music Composition in Games  
