@@ -18,7 +18,7 @@ This page showcases some of my musical experiences from 2018 to the present.
 ---
 
 ### Conducted a Music Workshop at Beijing Film Academy as a Visiting Scholar  
-![Music Workshop](https://github.com/Jingrui99/Jingrui-Han.github.io/blob/master/images/Piano1.png?raw=true)
+![Music Workshop](https://github.com/Jingrui99/Jingrui-Han.github.io/blob/master/images/112.jpg?raw=true)
 
 ---
 
