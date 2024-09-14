@@ -18,7 +18,7 @@ This page showcases some of my musical experiences from 2018 to the present.
 
 ---
 
-### Worked with Chinese Martial Arts Film Composer Hu Weili for a Martial Arts Game  
+### Worked with Chinese Martial Arts Film Composer Hu Weili for a Martial Arts Game Scoring 
 ![Martial Arts Game Composition](https://github.com/Jingrui99/Jingrui-Han.github.io/blob/master/images/Jingrui%203.jpg?raw=true)
 
 ---
