@@ -1,5 +1,5 @@
 ---
-title: "Teaching Experience 1"
+title: "Teaching Experience 1(Film Music Composition)"
 collection: teaching
 type: "Undergraduate Course"
 permalink: /teaching/2024-spring-teaching-1
@@ -8,8 +8,6 @@ date: 2024-07-01
 location: "Beijing, China"
 ---
 
-## Teaching Experience (Film Music Composition)  
-8-week Lecture, Beijing Film Academy, School of Sound, Spring 2024  
 
 ### Course Overview  
 This course was designed for third-year undergraduate students in the School of Sound at Beijing Film Academy. It primarily focused on the use of composition techniques and MIDI sequencing for scoring four types of screen music. These types include:  
