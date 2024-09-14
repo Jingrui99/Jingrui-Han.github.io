@@ -1,10 +1,13 @@
+---
 layout: archive
 title: "Musical Experience"
-permalink: [/musical-experience/](https://jingrui99.github.io/Jingrui-Han.github.io/musical-experience/)
+permalink: /musical-experience/
 author_profile: true
 redirect_from:
   - /resume
-     - /resume.html
+  - /resume.html
+---
+
 
 This page showcases some of my musical experiences from 2018 to the present.
 
