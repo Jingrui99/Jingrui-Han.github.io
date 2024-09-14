@@ -1,10 +1,9 @@
----
-permalink:  /musical-experience/
+layout: archive
 title: "Musical Experience"
+permalink: /musical-experience/
 author_profile: true
-redirect_from: 
-  - /musical-experience/
----
+redirect_from:
+  - /resume
 
 This page showcases some of my musical experiences from 2018 to the present.
 
