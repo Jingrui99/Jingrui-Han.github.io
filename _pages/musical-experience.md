@@ -3,9 +3,6 @@ layout: archive
 title: "Musical Experience"
 permalink: /musical-experience/
 author_profile: true
-redirect_from:
-  - /resume
-  - /resume.html
 ---
 
 
