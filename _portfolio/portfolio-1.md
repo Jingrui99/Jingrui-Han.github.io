@@ -1,7 +1,9 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-collection: portfolio
+layout: post
+title: "Discipline (戒)"
+category: "Film Composing"
+description: "Composer and Sound Designer, Tibetan Short Film, won the Danny Award for Best Sound Design 2022."
+youtube_link: "https://youtu.be/23upFHkjBlc"
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+
