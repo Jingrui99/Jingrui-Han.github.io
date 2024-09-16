@@ -7,8 +7,26 @@ author_profile: true
 
 {% include base_path %}
 
+## Film Composing
 
 {% for post in site.portfolio %}
-  {% include archive-single.html %}
+  {% if post.category == "Film Composing" %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
 
+## Game Composing
+
+{% for post in site.portfolio %}
+  {% if post.category == "Game Composing" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+## Music Performance
+
+{% for post in site.portfolio %}
+  {% if post.category == "Music Performance" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
