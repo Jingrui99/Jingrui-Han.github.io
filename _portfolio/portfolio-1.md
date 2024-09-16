@@ -6,4 +6,7 @@ description: "Composer and Sound Designer, Tibetan Short Film, won the Danny Awa
 youtube_link: "https://youtu.be/23upFHkjBlc"
 ---
 
+This project involved composing and sound design for the Tibetan short film *Discipline (戒)*, which won the Danny Award for Best Sound Design in 2022.
+
+{% include youtube.html id="23upFHkjBlc" %}
 
