@@ -1,7 +1,7 @@
 ---
 title: "Teaching Experience 2(Interactive Audio Programming)"
 collection: teaching
-type: "Undergraduate Course"
+type: "Undergraduate lecture"
 permalink: /teaching/2024-spring-teaching-2
 venue: "Beijing Film Academy, School of Sound"
 date: 2024-07-01
