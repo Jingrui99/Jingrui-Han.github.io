@@ -1,5 +1,5 @@
 ---
-title: "Teaching experience 2(New Media Sound Analysis)  "
+title: "Teaching experience 3(New Media Sound Analysis)  "
 collection: teaching
 type: "Undergraduate Lecture"
 permalink: /teaching/2024-autumn-teaching-1
