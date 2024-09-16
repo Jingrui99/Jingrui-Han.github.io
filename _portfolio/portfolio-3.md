@@ -1,7 +1,8 @@
 ---
-title: "Portfolio item number 2"
-excerpt: "Short description of portfolio item number 2 <br/><img src='/images/500x300.png'>"
-collection: portfolio
----
+layout: post
+title: "Lost in Count (困兽犹斗)"
+category: "Film Composing"
+description: "description: "Composer for a 30-minute short film. The project extensively used synthesizers and electronic sources, with a restrained musical approach aimed at enhancing the atmosphere rather than expression. Awarded the Pingyao International Film Festival's Best Game Short Film and received the China Academy of Sound Award.2023
+youtube_link: "https://youtu.be/hCkfxYDMQ2A"
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+The project extensively used synthesizers and electronic sources, with a restrained musical approach aimed at enhancing the atmosphere rather than expression. Awarded the Pingyao International Film Festival's Best Game Short Film and received the China Academy of Sound Award.2023
