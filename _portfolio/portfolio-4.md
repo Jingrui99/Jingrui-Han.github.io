@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio
 title: "Ghost of Tsushima Story Trailer"
 category: "Game Composing"
 description: "Recomposed the soundtrack for this game, incorporating East Asian folk music composition ideas along with Western symphonic concepts."
