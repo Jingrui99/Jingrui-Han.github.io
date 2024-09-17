@@ -1,12 +1,9 @@
 ---
-layout: archive
+layout: default
 title: "Portfolio"
-permalink: /portfolio/
-author_profile: true
 ---
 
 <h2>Film Composing</h2>
-{% include base_path %}
 <div class="portfolio-item-container">
     {% for post in site.posts %}
       {% if post.category == "Film Composing" %}
@@ -17,10 +14,10 @@ author_profile: true
         </div>
       {% endif %}
     {% endfor %}
-  </div>
+</div>
 
 <h2>Game Composing</h2>
-  <div class="portfolio-item-container">
+<div class="portfolio-item-container">
     {% for post in site.posts %}
       {% if post.category == "Game Composing" %}
         <div class="portfolio-item">
@@ -30,11 +27,10 @@ author_profile: true
         </div>
       {% endif %}
     {% endfor %}
-  </div>
+</div>
 
-
-  <h2>Musical Experience</h2>
-  <div class="portfolio-item-container">
+<h2>Musical Experience</h2>
+<div class="portfolio-item-container">
     {% for post in site.posts %}
       {% if post.category == "Musical Experience" %}
         <div class="portfolio-item">
@@ -42,6 +38,10 @@ author_profile: true
           <p>{{ post.description }}</p>
           <a href="{{ post.url }}">View Project</a>
         </div>
+      {% endif %}
+    {% endfor %}
+</div>
+
       {% endif %}
     {% endfor %}
   </div>
