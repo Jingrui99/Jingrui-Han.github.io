@@ -4,10 +4,49 @@ title: "Portfolio"
 permalink: /portfolio/
 author_profile: true
 ---
+---
+layout: default
+title: Portfolio
+---
 
-{% include base_path %}
+## Film Composing
 
+<div class="portfolio-container">
+  {% for post in site.portfolio %}
+    {% if post.category == "Film Composing" %}
+      <div class="portfolio-item">
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p>{{ post.description }}</p>
+        <a href="{{ post.url }}">View Project</a>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+## Game Composing
+
+<div class="portfolio-container">
+  {% for post in site.portfolio %}
+    {% if post.category == "Game Composing" %}
+      <div class="portfolio-item">
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p>{{ post.description }}</p>
+        <a href="{{ post.url }}">View Project</a>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+## Music Performance
+
+<div class="portfolio-container">
+  {% for post in site.portfolio %}
+    {% if post.category == "Music Performance" %}
+      <div class="portfolio-item">
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p>{{ post.description }}</p>
+        <a href="{{ post.url }}">View Project</a>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
