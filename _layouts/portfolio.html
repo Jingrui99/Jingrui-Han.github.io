@@ -29,10 +29,10 @@ title: "Portfolio"
   {% endfor %}
 </div>
 
-<h2>Musical Experience</h2>
+<h2>Music Performance</h2>
 <div class="portfolio-container">
   {% for post in site.portfolio %}
-    {% if post.category == "Musical Experience" %}
+    {% if post.category == "Music Performance" %}
       <div class="portfolio-item">
         <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
         <p>{{ post.description }}</p>
