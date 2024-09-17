@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio
 title: "Lost in Count (困兽犹斗)"
 category: "Film Composing"
 description: "Composer for a 30-minute short film. The project extensively used synthesizers and electronic sources, with a restrained musical approach aimed at enhancing the atmosphere rather than expression. Awarded Best Game Short Film at the Pingyao International Film Festival and received the China Academy of Sound Award in 2023."
