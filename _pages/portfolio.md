@@ -1,6 +1,43 @@
 ---
-layout: archive
+layout: default
 title: "Portfolio"
-author_profile: true
 permalink: /portfolio/
+author_profile: true
 ---
+
+<h2>Film Composing</h2>
+<div class="portfolio-container">
+  {% for post in site.portfolio %}
+    {% if post.category == "Film Composing" %}
+      <div class="portfolio-item">
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p>{{ post.excerpt }}</p>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<h2>Game Composing</h2>
+<div class="portfolio-container">
+  {% for post in site.portfolio %}
+    {% if post.category == "Game Composing" %}
+      <div class="portfolio-item">
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p>{{ post.excerpt }}</p>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<h2>Music Performance</h2>
+<div class="portfolio-container">
+  {% for post in site.portfolio %}
+    {% if post.category == "Music Performance" %}
+      <div class="portfolio-item">
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p>{{ post.excerpt }}</p>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
