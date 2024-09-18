@@ -6,12 +6,17 @@ author_profile: true
 ---
 
 {% include base_path %}
+{% include archive-single.html %}
 
 <h2>Film Composing</h2>
 <div class="portfolio-container">
   {% for post in site.portfolio %}
     {% if post.category == "Film Composing" %}
-  {% include archive-single.html %}
+      <div class="portfolio-item">
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p>{{ post.excerpt }}</p>
+      </div>
+    {% endif %}
   {% endfor %}
 </div>
 
@@ -19,7 +24,11 @@ author_profile: true
 <div class="portfolio-container">
   {% for post in site.portfolio %}
     {% if post.category == "Game Composing" %}
-     {% include archive-single.html %}
+      <div class="portfolio-item">
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p>{{ post.excerpt }}</p>
+      </div>
+    {% endif %}
   {% endfor %}
 </div>
 
@@ -27,8 +36,11 @@ author_profile: true
 <div class="portfolio-container">
   {% for post in site.portfolio %}
     {% if post.category == "Music Performance" %}
-       {% include archive-single.html %}
+      <div class="portfolio-item">
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p>{{ post.excerpt }}</p>
       </div>
     {% endif %}
   {% endfor %}
 </div>
+
