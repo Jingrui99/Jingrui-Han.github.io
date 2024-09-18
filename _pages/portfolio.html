@@ -7,9 +7,31 @@ author_profile: true
 
 {% include base_path %}
 
+<h2>Film Composing</h2>
+<div class="portfolio-container">
+  {% for post in site.portfolio %}
+    {% if post.category == "Film Composing" %}
+      {% include archive-single.html %}
+    {% endif %}
+  {% endfor %}
+</div>
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+<h2>Game Composing</h2>
+<div class="portfolio-container">
+  {% for post in site.portfolio %}
+    {% if post.category == "Game Composing" %}
+      {% include archive-single.html %}
+    {% endif %}
+  {% endfor %}
+</div>
+
+<h2>Music Performance</h2>
+<div class="portfolio-container">
+  {% for post in site.portfolio %}
+    {% if post.category == "Music Performance" %}
+      {% include archive-single.html %}
+    {% endif %}
+  {% endfor %}
+</div>
 
 
