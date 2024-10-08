@@ -39,3 +39,13 @@ This page showcases some of my musical experiences from 2018 to the present.
 ---
 ### Recording the Soundscape of Old Beijing Districts  
 ![Beijing Soundscape](https://github.com/Jingrui99/Jingrui-Han.github.io/blob/master/images/114.jpg?raw=true)
+
+---
+### FMC 2022 Semifinalist- MUSIC FOR FILM, TV, ADS, VIDEO GAMES
+（https://github.com/Jingrui99/Jingrui-Han.github.io/blob/master/images/%E6%88%AA%E5%B1%8F2024-10-08%2021.42.07.png?raw=true）
+
+---
+### Winner of the Danny Award for Best Score
+（https://github.com/Jingrui99/Jingrui-Han.github.io/blob/master/images/C2%20Special2.jpg?raw=true）
+
+---
