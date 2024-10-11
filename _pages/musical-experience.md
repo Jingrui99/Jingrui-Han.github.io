@@ -23,6 +23,11 @@ This page showcases some of my musical experiences from 2018 to the present.
 
 ---
 
+### Praised by Amsterdam Film Critics for the Score of Short Film *Lost*  
+![Lost Film Score Praise](https://github.com/Jingrui99/Jingrui-Han.github.io/blob/master/images/WechatIMG62029.jpg?raw=true)
+
+---
+
 ### Conducted a Music Workshop at Beijing Film Academy as a Visiting Scholar  
 ![Music Workshop](https://github.com/Jingrui99/Jingrui-Han.github.io/blob/master/images/112.jpg?raw=true)
 
