@@ -37,11 +37,8 @@ author_profile: true
 
     > **"I do not merely produce music; I enter a state of co-existence with sound through the environment of the headphones."**
     
-<div style="text-align: center;">
-  <img src="/images/headphones.jpg" alt="Headphones as Research Object" width="500" />
-  <p><i>Figure 1: My headphones — not just a tool, but a sensory environment.</i></p>
-</div>
----
+![Headphones as Research Object](/images/headphones.jpg)
+*Figure 1: My headphones — not just a tool, but a sensory environment.*
 
 ## 📂 TASK THREE: Indigenous Epistemology & Methodology
 *A Response to Manulani Aluli Meyer’s “Indigenous and Authentic.”*
