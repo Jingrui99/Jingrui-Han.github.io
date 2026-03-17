@@ -59,7 +59,6 @@ Aluli Meyer emphasizes the "Triangulation of Meaning" through **Body, Mind, and 
 ---
 
 ## 📂 Week 3: Self-Directed Research Questions
-*Quick-fire generation of inquiries for the collaborative scoring practice:*
 
 1.  When gesture becomes the language of communication, can AI perceive the "emotional tension" in a composer’s movement?
 2.  How can we break the "Single Agency" of AI software to allow it to truly understand cinematic narrative logic?
