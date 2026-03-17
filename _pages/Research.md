@@ -14,7 +14,7 @@ author_profile: true
 *Developed through library database searching and initial conceptual mapping.*
 
 ### Core Keywords
-*   **Relational Agency:** Moving beyond "AI as a tool" to "AI as a non-human collaborator." I focus on how AI and composers co-create in real-time performance through **Gestural Interaction**.
+*   **Relational Agency:** Moving beyond "AI as a tool" to "AI as a non-human collaborator." I focus on how AI and composers co-create in real-time performance through Gestural Interaction.
 *   **Collaborative Workflow:** Current AI music software often operates under "Single Agency," which is insufficient for the complex, image-synced demands of film scoring. My research explores a new workflow allowing for real-time feedback and joint decision-making.
 *   **Embodied Composition:** Investigating how composers align emotionally with AI through bodily senses and physical gestures rather than mere code or MIDI input.
 
