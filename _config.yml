@@ -18,7 +18,7 @@ repository: "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar: "https://github.com/Jingrui99/Jingrui-Han.github.io/blob/master/images/%E6%88%AA%E5%B1%8F2024-09-12%2011.18.25.png?raw=true"  # Make sure the path is correct and image is in the 'images' folder
-  name: "Jingrui Han（韩竞锐）"
+  name: "Jingrui Han（韩竞锐）(Zeb Han)"
   pronouns: # example: "she/her"
   bio: "Assistant Lecturer in Art & Technology"
   location: "Qingdao CHN"
@@ -28,9 +28,9 @@ author:
 
   # Academic websites
   arxiv: # URL
-  googlescholar: # "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar: https://scholar.google.com/citations?user=f7cSkgwAAAAJ&hl# "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   impactstory: # URL
-  orcid: # "http://orcid.org/yourorcidurl"
+  orcid: 0009-0009-5134-9660# "http://orcid.org/yourorcidurl"
   semantic: # URL
   pubmed: # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate: # URL
