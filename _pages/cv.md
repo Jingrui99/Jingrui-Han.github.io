@@ -11,6 +11,7 @@ redirect_from:
 
 
 ## Education
+- **PhD in Creative Technologies** | Auckland University of Technology (AUT) | 2025 – Present
 - **M.Sc** in Sound Design, Reid School of Music, University of Edinburgh, 2023  
 - **B.F.A** in Composition, Beijing Film Academy, 2022  
 
