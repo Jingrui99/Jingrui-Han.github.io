@@ -1,0 +1,196 @@
+---
+layout: null
+permalink: /aether-recursion/
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>AETHER RECURSION // 韩竞锐 Zeb han</title>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+    <style>
+        body, html { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #000; color: #fff; font-family: 'Courier New', monospace; }
+        canvas { position: absolute; top: 0; left: 0; width: 100vw; height: 100vh; z-index: 1; }
+        
+        #v-preview { 
+            position: absolute; bottom: 20px; right: 20px; 
+            width: 200px; height: 150px; 
+            border: 1px solid rgba(255,255,255,0.1); 
+            transform: scaleX(-1); opacity: 0.5; z-index: 100;
+        }
+
+        #ui { position: absolute; top: 40px; left: 40px; z-index: 100; pointer-events: none; }
+        .stat { font-size: 11px; letter-spacing: 3px; color: rgba(255,255,255,0.4); text-transform: uppercase; margin-bottom: 8px; }
+        .val { color: #fff; }
+
+        #start-screen { 
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%; 
+            background: #000; display: flex; flex-direction: column; 
+            justify-content: center; align-items: center; z-index: 1000; 
+        }
+        
+        /* 艺术家名字样式 */
+        .author-name {
+            color: #888;
+            letter-spacing: 6px;
+            font-size: 14px;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+
+        button { 
+            background: none; border: 1px solid #fff; color: #fff; 
+            padding: 20px 60px; font-size: 16px; cursor: pointer; 
+            letter-spacing: 10px; transition: 0.5s; 
+        }
+        button:hover { background: #fff; color: #000; box-shadow: 0 0 50px #fff; }
+    </style>
+</head>
+<body>
+
+<div id="start-screen">
+    <h1 style="letter-spacing: 20px; font-weight: 100; margin-bottom: 15px;">AETHER RECURSION</h1>
+    
+    <!-- 作者署名 -->
+    <div class="author-name">Created by 韩竞锐 (Zeb han)</div>
+    
+    <p style="color: #333; margin-bottom: 50px; letter-spacing: 2px;">AI GESTURE GENERATIVE ART SYSTEM</p>
+    <button id="start-btn">INITIALIZE</button>
+</div>
+
+<div id="ui">
+    <div class="stat">System Mode: <span id="m-state" class="val">IDLE</span></div>
+    <div class="stat">Entropy: <span id="v-entropy" class="val">0.00</span></div>
+    <div class="stat">Detune: <span id="v-detune" class="val">0.00</span></div>
+</div>
+
+<video id="v-preview"></video>
+<canvas id="c"></canvas>
+
+<script>
+    const canvas = document.getElementById('c');
+    const ctx = canvas.getContext('2d');
+    const vPreview = document.getElementById('v-preview');
+    let w, h, handData = null, phase = 0;
+
+    function resize() { w = canvas.width = window.innerWidth; h = canvas.height = window.innerHeight; }
+    window.onresize = resize; resize();
+
+    // --- 音频引擎 ---
+    let audioCtx, masterGain, delay, filter;
+    let oscs = [];
+
+    function initAudio() {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        masterGain = audioCtx.createGain();
+        masterGain.gain.value = 0;
+        filter = audioCtx.createBiquadFilter();
+        filter.type = 'lowpass';
+        filter.frequency.value = 200;
+        delay = audioCtx.createDelay();
+        delay.delayTime.value = 0.4;
+        let feedback = audioCtx.createGain();
+        feedback.gain.value = 0.6;
+        masterGain.connect(filter);
+        filter.connect(delay);
+        delay.connect(feedback);
+        feedback.connect(delay);
+        delay.connect(audioCtx.destination);
+        filter.connect(audioCtx.destination);
+        for(let i=0; i<3; i++){
+            let osc = audioCtx.createOscillator();
+            osc.type = i === 0 ? 'sine' : 'sawtooth';
+            osc.frequency.value = 55 * (i + 1); 
+            let g = audioCtx.createGain();
+            g.gain.value = 0.2;
+            osc.connect(g); g.connect(masterGain);
+            osc.start();
+            oscs.push({osc, g, base: 55 * (i+1)});
+        }
+    }
+
+    function updateSystem(hand) {
+        const spread = Math.hypot(hand[4].x - hand[20].x, hand[4].y - hand[20].y);
+        const yNorm = 1 - hand[9].y;
+        const xNorm = hand[9].x;
+        const pitchIdx = yNorm * 2;
+        oscs.forEach((o, i) => {
+            o.osc.frequency.setTargetAtTime(o.base * (1 + pitchIdx), audioCtx.currentTime, 0.2);
+            o.osc.detune.setTargetAtTime(spread * 500, audioCtx.currentTime, 0.1);
+        });
+        filter.frequency.setTargetAtTime(200 + spread * 4000, audioCtx.currentTime, 0.2);
+        delay.delayTime.setTargetAtTime(0.1 + xNorm * 0.8, audioCtx.currentTime, 0.5);
+        masterGain.gain.setTargetAtTime(0.4, audioCtx.currentTime, 0.1);
+        document.getElementById('v-entropy').innerText = spread.toFixed(2);
+        document.getElementById('v-detune').innerText = Math.round(spread * 500);
+        let mode = "PROLOGUE";
+        if(spread > 0.3) mode = "EVOLUTION";
+        if(spread > 0.45) mode = "CLIMAX";
+        document.getElementById('m-state').innerText = mode;
+        return { spread, xNorm, yNorm };
+    }
+
+    // --- 视觉引擎 ---
+    function draw() {
+        ctx.fillStyle = 'rgba(0, 0, 0, 0.08)';
+        ctx.fillRect(0, 0, w, h);
+        if (handData) {
+            const params = updateSystem(handData);
+            phase += 0.01 + (params.spread * 0.05);
+            ctx.save();
+            ctx.translate(w/2, h/2);
+            const branches = Math.floor(params.spread * 30) + 3;
+            for (let i = 0; i < branches; i++) {
+                ctx.rotate((Math.PI * 2) / branches);
+                const d = params.spread > 0.3 ? 7 : 4;
+                renderBranch(0, 0, h/4 * params.spread, phase, d, params.spread);
+            }
+            ctx.restore();
+        }
+        requestAnimationFrame(draw);
+    }
+
+    function renderBranch(x, y, len, rot, d, spread) {
+        if (d <= 0) return;
+        ctx.beginPath();
+        const hue = (rot * 50 + phase * 100) % 360;
+        ctx.strokeStyle = `hsla(${hue}, 80%, 60%, ${d/7})`;
+        ctx.lineWidth = d * spread * 2;
+        ctx.moveTo(x, y);
+        const nx = x + Math.cos(rot) * len;
+        const ny = y + Math.sin(rot) * len;
+        ctx.lineTo(nx, ny);
+        ctx.stroke();
+        const swirl = (handData[9].x - 0.5) * 4;
+        renderBranch(nx, ny, len * 0.8, rot + swirl + 0.5, d - 1, spread);
+        renderBranch(nx, ny, len * 0.8, rot + swirl - 0.5, d - 1, spread);
+    }
+
+    // --- 核心逻辑 ---
+    const hands = new Hands({locateFile: (file) => `https://cdn.jsdelivr.net/npm/@mediapipe/hands/${file}`});
+    hands.setOptions({ maxNumHands: 1, modelComplexity: 1, minDetectionConfidence: 0.5, minTrackingConfidence: 0.5 });
+    hands.onResults(results => {
+        if (results.multiHandLandmarks && results.multiHandLandmarks.length > 0) {
+            handData = results.multiHandLandmarks[0];
+        } else {
+            handData = null;
+            if(masterGain) masterGain.gain.setTargetAtTime(0, audioCtx.currentTime, 0.8);
+            document.getElementById('m-state').innerText = "SIGNAL LOST";
+        }
+    });
+
+    const camera = new Camera(vPreview, {
+        onFrame: async () => { await hands.send({image: vPreview}); },
+        width: 640, height: 480
+    });
+
+    document.getElementById('start-btn').onclick = () => {
+        initAudio();
+        camera.start();
+        document.getElementById('start-screen').style.display = 'none';
+        requestAnimationFrame(draw);
+    };
+</script>
+</body>
+</html>
