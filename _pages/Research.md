@@ -10,12 +10,12 @@ author_profile: true
 
 ---
 ## 📄 Research Design Document
-*If the PDF viewer does not load, you can [click here to download the file](/files/Jingrui_Han_ARDN800_ResearchDesign_2026.pdf).*
+*If the PDF viewer does not load, you can [click here to download the file](/Jingrui-Han.github.io/files/Jingrui_Han_ARDN800_ResearchDesign_2026.pdf).*
 
 <div style="margin-top: 20px; border: 1px solid #ddd;">
-    <iframe src="{{ site.baseurl }}/files/Jingrui_Han_ARDN800_ResearchDesign_2026.pdf" width="100%" height="1100px" frameborder="0">
+    <iframe src="/Jingrui-Han.github.io/files/Jingrui_Han_ARDN800_ResearchDesign_2026.pdf" width="100%" height="1100px" frameborder="0">
         This browser does not support inline PDFs. Please download the document to view it: 
-        <a href="{{ site.baseurl }}/files/Jingrui_Han_ARDN800_ResearchDesign_2026.pdf">Download PDF</a>.
+        <a href="/Jingrui-Han.github.io/files/Jingrui_Han_ARDN800_ResearchDesign_2026.pdf">Download PDF</a>.
     </iframe>
 </div>
 
