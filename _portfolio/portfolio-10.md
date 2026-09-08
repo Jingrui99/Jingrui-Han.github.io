@@ -1,14 +1,13 @@
 ```markdown
 ---
 layout: portfolio
-title: "ECHO"
+title: "RIFT — Markov Gesture Installation (2026)"
 collection: portfolio
 category: "Interactive audiovisual device"
-description: "Sound Technologist Sound Designer, 2026"
-youtube_link: "https://vimeo.com/1210952549?fl=pl&fe=sh"
+description: "Sound Technologist and Sound Designer, 2026"
 ---
 
-This project involved composing and sound design for the short film *ECHO*, 2025.
+This project explores an interactive audiovisual device that connects gesture, sound, and algorithmic musical transformation.
 
 <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
   <iframe
@@ -20,3 +19,4 @@ This project involved composing and sound design for the short film *ECHO*, 2025
   </iframe>
 </div>
 ```
+
