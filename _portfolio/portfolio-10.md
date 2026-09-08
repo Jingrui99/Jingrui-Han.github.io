@@ -1,4 +1,4 @@
-```markdown
+
 ---
 layout: portfolio
 title: "RIFT — Markov Gesture Installation (2026)"
